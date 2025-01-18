@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            height: 78vh;
+            background-image: linear-gradient(to bottom right,#8882A1,#F6F6F6,#FFE2E1,#FEC7C7,#BACEE3,#E5F3F3,#F6FAF9,#8E83BB);
+        }
+        section{
+            background-color: #8E83BB;
+             padding: 15px;
+          border-radius: 63px 20px;
+            width: 300px;
+           margin:120px auto;
+           box-shadow: 4px 5px 10px 6px #FEC7C7,-5px -5px 10px 6px #FEC7C7;
+           
+        }
+        h1{
+            color: #F6F6F6;
+            text-align: center;
+        }
+        .input{
+            position: relative;
+        }
+        input{
+            padding: 14px;
+            width: 200%;
+            max-width: 300px;
+            box-sizing: border-box;
+            outline: none;
+            border: 1px solid #8E83BB;
+            border-radius: 20px;
+
+
+        }
+        button{
+            padding: 8px 130px;
+            font-size: 17px;
+            margin-top: 5px;
+            color: #8E83BB;
+            border: 1px solid #8882A1;
+            border-radius: 19px;
+
+        }
+        button:hover{
+            background-color: #ccc;
+            color: #E5F3F3;
+        }
+        label{
+            position: absolute;
+       
+            top: 10px;
+            left: 13px;
+            padding: 0px 5px;
+            color: #8E83BB;
+           font-weight: 700;
+            transition: 0.3s;
+            pointer-events: none;
+
+        }
+        input:focus + label{
+            top: -12px;
+            color:#F6F6F6;
+            background-color: #8E83BB;
+padding: 3px;
+            font-size: 19px;
+        }
+        input:hover{
+            background-color: #ccc;
+            font-weight: bolder;
+        }
+        .lik{
+            color: #F6F6F6;
+            text-decoration: none;
+        }
+        p{
+            color: #F6F6F6;
+            text-align: center;
+        }
+        a{
+            color: #ccc;
+        }
+     
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Login</h1><hr><br>
+        <div class="input">
+        <input type="text"><label>username</label></div><br>
+        <div class="input">
+        <input type="password">
+        <label>password</label>
+    </div><br>
+        <a href="#" class="lik">Forget password ?</a><br>
+        <button>login</button>
+        <br><br><p>Not a Member ? <a href="#">Signup</a></p>
+    </section>
+</body>
+</html>
