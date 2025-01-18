@@ -1,0 +1,157 @@
+
+body{
+    background-color:#bfccde;
+}
+.content{
+    width: 25%;
+    margin: auto;
+    height: 74vh;
+ background-color: #e9ecf4;
+position: relative;
+border-radius: 16px;
+margin-top:70px;
+
+}
+.content .top{
+    width: 100%;
+    height: 20vh;
+    border-radius: 16px 16px 0px 0px;
+    background-color:#0342ab;
+
+}
+img{
+    width: 110px;
+    height: 110px;
+    border-radius:55px;
+    position: absolute;
+    top: 50px;
+    left: 92px;
+    border: 4px solid #0342ab;
+    padding: 1px;
+}
+.content .h1,.content p{
+    text-align: center;
+    
+}
+.content .h1{
+    padding-top: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.icon{
+   
+    margin-left:40px;
+}
+i{
+   margin-left: 10px;
+   font-size:1.5em;
+   padding: 10px;
+   border-radius: 40px;
+   background-color: #0342ab;
+}
+.face{
+    background-color: #0342ab;
+    
+}
+.insta{
+    background-color: #d530b4;
+}
+.twi{
+    background-color: cornflowerblue;
+}
+.yt{
+    background-color: rgb(168, 33, 33);
+}
+.btn{
+    margin-left: 40px;
+}
+button{
+    color: #fff;
+    background-color: #0342ab;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    border-radius:15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: #94abee;
+}
+i:hover{
+    rotate:120deg;
+    transition:1s linear;
+
+}
+img:hover{
+   scale:1.2;
+}
+
+@media screen and (max-width:1024px) {
+    .content{
+        width: 50%;
+        margin: auto;
+        height: 69vh;
+    
+    margin-top:70px;
+    
+    }
+    img{
+        
+        position: absolute;
+        top: 50px;
+        left: 106px;
+       
+    }
+    button{
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .content{
+        width: 40%;
+     
+        margin: auto;
+        height: 69vh;
+    
+    margin-top:70px;
+    
+    }
+    img{
+        
+        position: absolute;
+        top: 50px;
+        left: 106px;
+       
+    }
+    button{
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width:508px) {
+    .content{
+        width: 70%;
+       
+        margin: auto;
+        height: 69vh;
+    
+    margin-top:70px;
+    
+    }
+    img{
+        
+        position: absolute;
+        top: 50px;
+        left: 106px;
+       
+    }
+    button{
+        margin-left: 20px;
+    }
+    
+}
+
