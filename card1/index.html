@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color:rgba(255, 255, 0, 0.386);
+        }
+       .box{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+       }
+       .box::before{
+        content: '';
+        position: absolute;
+        width: 230px;
+        height: 190%;
+       background-image: linear-gradient(to top left, yellow,gray,#fff);
+        box-shadow:0 0 20px black ;
+        animation: hello 3s linear infinite;
+       }
+       .box::after{
+        content: '';
+        position: absolute;
+        inset: 10px;
+        background-color:#000;
+        border-radius: 16px;
+       }
+       @keyframes hello{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+       }
+      h1,img{
+        z-index: 1;
+        color: #fff;
+       
+        margin-left: 20px;
+      }
+     
+      img{
+        width: 100px;
+    
+      }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <img src="img1.jpg" alt="">
+<br><br>
+        <h1>Ouissal Rms</h1>
+        
+    </div>
+</body>
+</html>
